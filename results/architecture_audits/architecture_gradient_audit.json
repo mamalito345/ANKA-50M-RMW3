@@ -1,0 +1,188 @@
+{
+  "evaluated_tokens": 4096,
+  "language_loss": 2.6290268898010254,
+  "balance_loss": 1.0309908390045166,
+  "current_balance_weight": 0.01,
+  "groups": {
+    "reflect_transforms": {
+      "parameter_count": 425984,
+      "tensor_count": 26,
+      "language_nonzero_tensors": 26,
+      "balance_nonzero_tensors": 26,
+      "parameter_norm": 53.949642861132546,
+      "parameter_rms": 0.0826593394532081,
+      "language_gradient_norm": 0.07608044501331832,
+      "language_gradient_rms": 0.00011656720965316496,
+      "balance_gradient_norm": 0.021731457432011523,
+      "balance_gradient_rms": 3.329601126942239e-05,
+      "language_balance_cosine": -0.19102327274907874,
+      "current_balance_weight": 0.01,
+      "current_weighted_balance_to_language_ratio": 0.0028563788537524074,
+      "balance_weight_for_3_percent": 0.1050280846344636,
+      "balance_weight_for_5_percent": 0.17504680772410602,
+      "balance_weight_for_10_percent": 0.35009361544821205
+    },
+    "reflect_gates": {
+      "parameter_count": 13,
+      "tensor_count": 13,
+      "language_nonzero_tensors": 13,
+      "balance_nonzero_tensors": 13,
+      "parameter_norm": 7.943480153756601,
+      "parameter_rms": 2.203125,
+      "language_gradient_norm": 0.007979539764519785,
+      "language_gradient_rms": 0.002213126136583072,
+      "balance_gradient_norm": 0.0020564567430005815,
+      "balance_gradient_rms": 0.0005703584794355592,
+      "language_balance_cosine": -0.7993549736019613,
+      "current_balance_weight": 0.01,
+      "current_weighted_balance_to_language_ratio": 0.002577162096671801,
+      "balance_weight_for_3_percent": 0.11640711323025667,
+      "balance_weight_for_5_percent": 0.19401185538376114,
+      "balance_weight_for_10_percent": 0.3880237107675223
+    },
+    "morph_routers": {
+      "parameter_count": 8192,
+      "tensor_count": 4,
+      "language_nonzero_tensors": 4,
+      "balance_nonzero_tensors": 4,
+      "parameter_norm": 6.405125961315848,
+      "parameter_rms": 0.07076731252500687,
+      "language_gradient_norm": 0.08899384291862893,
+      "language_gradient_rms": 0.0009832523408064519,
+      "balance_gradient_norm": 0.3383804353250081,
+      "balance_gradient_rms": 0.0037386109443620186,
+      "language_balance_cosine": 0.10270864599544814,
+      "current_balance_weight": 0.01,
+      "current_weighted_balance_to_language_ratio": 0.03802290408274701,
+      "balance_weight_for_3_percent": 0.007889981242546012,
+      "balance_weight_for_5_percent": 0.013149968737576687,
+      "balance_weight_for_10_percent": 0.026299937475153374
+    },
+    "morph_experts": {
+      "parameter_count": 6029312,
+      "tensor_count": 32,
+      "language_nonzero_tensors": 32,
+      "balance_nonzero_tensors": 24,
+      "parameter_norm": 234.466609440199,
+      "parameter_rms": 0.09548763219408611,
+      "language_gradient_norm": 0.043949994019568124,
+      "language_gradient_rms": 1.7898842286723025e-05,
+      "balance_gradient_norm": 0.006394071285864886,
+      "balance_gradient_rms": 2.604015678928288e-06,
+      "language_balance_cosine": -0.06828789620841823,
+      "current_balance_weight": 0.01,
+      "current_weighted_balance_to_language_ratio": 0.0014548514575492353,
+      "balance_weight_for_3_percent": 0.2062066188567209,
+      "balance_weight_for_5_percent": 0.3436776980945348,
+      "balance_weight_for_10_percent": 0.6873553961890696
+    },
+    "morph_scales": {
+      "parameter_count": 4,
+      "tensor_count": 4,
+      "language_nonzero_tensors": 4,
+      "balance_nonzero_tensors": 3,
+      "parameter_norm": 8.0,
+      "parameter_rms": 4.0,
+      "language_gradient_norm": 0.013528563616476391,
+      "language_gradient_rms": 0.006764281808238196,
+      "balance_gradient_norm": 0.001527371707774337,
+      "balance_gradient_rms": 0.0007636858538871685,
+      "language_balance_cosine": -0.6054257560401092,
+      "current_balance_weight": 0.01,
+      "current_weighted_balance_to_language_ratio": 0.0011289976904230662,
+      "balance_weight_for_3_percent": 0.2657224213519709,
+      "balance_weight_for_5_percent": 0.4428707022532849,
+      "balance_weight_for_10_percent": 0.8857414045065698
+    }
+  },
+  "reflect_gate_gradients": [
+    {
+      "layer": 0,
+      "value": 0.09947021305561066,
+      "language_gradient": -0.0016839219024404883
+    },
+    {
+      "layer": 1,
+      "value": 0.09947021305561066,
+      "language_gradient": -0.0008255590219050646
+    },
+    {
+      "layer": 2,
+      "value": 0.09947021305561066,
+      "language_gradient": -0.00041004587546922266
+    },
+    {
+      "layer": 3,
+      "value": 0.09947021305561066,
+      "language_gradient": -0.0005849988083355129
+    },
+    {
+      "layer": 4,
+      "value": 0.09947021305561066,
+      "language_gradient": -0.0011043902486562729
+    },
+    {
+      "layer": 5,
+      "value": 0.09947021305561066,
+      "language_gradient": -0.0030616759322583675
+    },
+    {
+      "layer": 6,
+      "value": 0.09947021305561066,
+      "language_gradient": -0.002307191723957658
+    },
+    {
+      "layer": 7,
+      "value": 0.09947021305561066,
+      "language_gradient": 0.0024712097365409136
+    },
+    {
+      "layer": 8,
+      "value": 0.09947021305561066,
+      "language_gradient": -0.0004373822594061494
+    },
+    {
+      "layer": 9,
+      "value": 0.09947021305561066,
+      "language_gradient": 0.0014761652564629912
+    },
+    {
+      "layer": 10,
+      "value": 0.09947021305561066,
+      "language_gradient": 0.00042371408198960125
+    },
+    {
+      "layer": 11,
+      "value": 0.09947021305561066,
+      "language_gradient": -0.0030179377645254135
+    },
+    {
+      "layer": 12,
+      "value": 0.09947021305561066,
+      "language_gradient": -0.00509550329297781
+    }
+  ],
+  "morph_scale_gradients": [
+    {
+      "stage": 0,
+      "value": 0.01798621006309986,
+      "language_gradient": -0.004294935148209333
+    },
+    {
+      "stage": 1,
+      "value": 0.01798621006309986,
+      "language_gradient": -0.005830072797834873
+    },
+    {
+      "stage": 2,
+      "value": 0.01798621006309986,
+      "language_gradient": -0.0061060525476932526
+    },
+    {
+      "stage": 3,
+      "value": 0.01798621006309986,
+      "language_gradient": -0.009659293107688427
+    }
+  ],
+  "peak_vram_gib": 3.831103801727295
+}

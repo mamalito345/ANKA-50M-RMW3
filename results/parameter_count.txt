@@ -1,0 +1,4 @@
+ANKA-50M RMW3 unique trainable parameters: 48,944,657
+Competition limit: 50,000,000
+Weight tying: enabled
+Status: PASS

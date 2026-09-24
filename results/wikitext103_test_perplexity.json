@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "dataset": "Salesforce/wikitext",
+  "config": "wikitext-103-raw-v1",
+  "split": "test",
+  "documents": 2891,
+  "tokenizer_tokens": 322587,
+  "scored_tokens": 322587,
+  "context_length": 1024,
+  "stride": 512,
+  "mean_loss": 3.256827592602139,
+  "perplexity": 25.967028343137855,
+  "elapsed_seconds": 3.5152821149968076,
+  "tokens_per_second": 91767.03019760136,
+  "peak_vram_gib": 0.8003883361816406
+}

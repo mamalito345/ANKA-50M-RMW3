@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+*.pt
+*.pth
+*.bin
+model.safetensors
+hf_cache/
+reports/tasks/

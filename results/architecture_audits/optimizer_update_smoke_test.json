@@ -1,0 +1,77 @@
+{
+  "balance_weight": 0.01,
+  "learning_rates": {
+    "core": 6e-05,
+    "architecture": 8e-05,
+    "routers": 6e-05,
+    "fp32_scalars": 2e-05
+  },
+  "evaluated_tokens": 4096,
+  "original_language_loss": 2.6290268898010254,
+  "updated_language_loss": 2.5854275226593018,
+  "language_loss_change": -0.04359936714172363,
+  "original_balance_loss": 1.0309908390045166,
+  "updated_balance_loss": 1.031252145767212,
+  "original_total_loss": 2.6393368244171143,
+  "updated_total_loss": 2.5957400798797607,
+  "gradient_norm_before_clip": 1.341896414756775,
+  "parameter_updates": {
+    "core": {
+      "parameter_count": 42481152,
+      "changed_count": 8911013,
+      "changed_fraction": 0.20976392071476782,
+      "mean_absolute_change": 1.2737749088000065e-05,
+      "rms_change": 2.7836247623483973e-05,
+      "max_absolute_change": 6.103515625e-05
+    },
+    "architecture": {
+      "parameter_count": 6455296,
+      "changed_count": 1726888,
+      "changed_fraction": 0.2675149210818528,
+      "mean_absolute_change": 2.5477292871387525e-05,
+      "rms_change": 5.110253273781718e-05,
+      "max_absolute_change": 0.0001220703125
+    },
+    "routers": {
+      "parameter_count": 8192,
+      "changed_count": 1865,
+      "changed_fraction": 0.2276611328125,
+      "mean_absolute_change": 1.387541851727292e-05,
+      "rms_change": 2.9084300223605983e-05,
+      "max_absolute_change": 6.103515625e-05
+    },
+    "fp32_scalars": {
+      "parameter_count": 17,
+      "changed_count": 17,
+      "changed_fraction": 1.0,
+      "mean_absolute_change": 2.002716064453125e-05,
+      "rms_change": 2.002716064453125e-05,
+      "max_absolute_change": 2.002716064453125e-05
+    }
+  },
+  "reflect_gate_logit_changes": [
+    2.002716064453125e-05,
+    2.002716064453125e-05,
+    2.002716064453125e-05,
+    2.002716064453125e-05,
+    2.002716064453125e-05,
+    2.002716064453125e-05,
+    2.002716064453125e-05,
+    -2.002716064453125e-05,
+    2.002716064453125e-05,
+    -2.002716064453125e-05,
+    -2.002716064453125e-05,
+    2.002716064453125e-05,
+    2.002716064453125e-05
+  ],
+  "morph_scale_logit_changes": [
+    2.002716064453125e-05,
+    2.002716064453125e-05,
+    2.002716064453125e-05,
+    2.002716064453125e-05
+  ],
+  "restore_max_error": 0.0,
+  "loss_restore_error": 0.0,
+  "weight_tying_pass": true,
+  "peak_vram_gib": 3.8459596633911133
+}

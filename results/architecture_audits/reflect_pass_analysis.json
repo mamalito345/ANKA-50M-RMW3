@@ -1,0 +1,193 @@
+{
+  "batch_size": 4,
+  "sequence_length": 1024,
+  "token_stride": 8,
+  "evaluated_tokens": 512,
+  "used_validation_shards": [
+    "/content/drive/MyDrive/ANKA/run_02_english_5b/natural_4p8b_v3/validation_00000.bin"
+  ],
+  "first_pass_loss": 6.118275165557861,
+  "final_pass_loss": 2.5797481536865234,
+  "mean_nll_improvement": 3.538527250289917,
+  "improved_token_fraction": 0.951171875,
+  "worsened_token_fraction": 0.048828125,
+  "nearly_equal_token_fraction": 0.0,
+  "nll_improvement_quantiles": {
+    "q05": 0.06412144005298615,
+    "q10": 0.8975768089294434,
+    "q25": 2.185077428817749,
+    "q50": 3.539515972137451,
+    "q75": 4.849150657653809,
+    "q90": 6.326566696166992,
+    "q95": 6.946863651275635
+  },
+  "final_minus_first_quantiles": {
+    "q05": -6.946863651275635,
+    "q10": -6.32656717300415,
+    "q25": -4.849150657653809,
+    "q50": -3.539515972137451,
+    "q75": -2.185077428817749,
+    "q90": -0.8975769281387329,
+    "q95": -0.06412220746278763
+  },
+  "mean_update_to_state_ratio": 0.04669658653438091,
+  "mean_update_to_discrepancy_ratio": 0.07065706986647385,
+  "reflect_layers": [
+    {
+      "layer": 0,
+      "gate": 0.09947021305561066,
+      "current_rms": 9.694411277770996,
+      "remembered_rms": 4.281048774719238,
+      "discrepancy_rms": 6.976225852966309,
+      "update_rms": 0.5080703496932983,
+      "output_rms": 9.679880142211914,
+      "update_to_state_ratio": 0.05240858346223831,
+      "update_to_discrepancy_ratio": 0.07282882928848267,
+      "update_discrepancy_cosine": -0.1265997290611267
+    },
+    {
+      "layer": 1,
+      "gate": 0.09947021305561066,
+      "current_rms": 7.907182693481445,
+      "remembered_rms": 5.003831386566162,
+      "discrepancy_rms": 5.368967056274414,
+      "update_rms": 0.39659300446510315,
+      "output_rms": 7.871715068817139,
+      "update_to_state_ratio": 0.05015604570508003,
+      "update_to_discrepancy_ratio": 0.07386765629053116,
+      "update_discrepancy_cosine": -0.09133915603160858
+    },
+    {
+      "layer": 2,
+      "gate": 0.09947021305561066,
+      "current_rms": 8.042791366577148,
+      "remembered_rms": 5.3270158767700195,
+      "discrepancy_rms": 5.373082160949707,
+      "update_rms": 0.44207048416137695,
+      "output_rms": 8.119955062866211,
+      "update_to_state_ratio": 0.054964806884527206,
+      "update_to_discrepancy_ratio": 0.08227502554655075,
+      "update_discrepancy_cosine": 0.04633914679288864
+    },
+    {
+      "layer": 3,
+      "gate": 0.09947021305561066,
+      "current_rms": 8.5359525680542,
+      "remembered_rms": 5.673214435577393,
+      "discrepancy_rms": 5.572688102722168,
+      "update_rms": 0.46447381377220154,
+      "output_rms": 8.709980010986328,
+      "update_to_state_ratio": 0.054413821548223495,
+      "update_to_discrepancy_ratio": 0.08334825187921524,
+      "update_discrepancy_cosine": 0.11302739381790161
+    },
+    {
+      "layer": 4,
+      "gate": 0.09947021305561066,
+      "current_rms": 9.272358894348145,
+      "remembered_rms": 6.258880615234375,
+      "discrepancy_rms": 5.806599140167236,
+      "update_rms": 0.4895728826522827,
+      "output_rms": 9.446444511413574,
+      "update_to_state_ratio": 0.05279917269945145,
+      "update_to_discrepancy_ratio": 0.08431318402290344,
+      "update_discrepancy_cosine": 0.15988010168075562
+    },
+    {
+      "layer": 5,
+      "gate": 0.09947021305561066,
+      "current_rms": 10.031344413757324,
+      "remembered_rms": 6.2685322761535645,
+      "discrepancy_rms": 6.250766754150391,
+      "update_rms": 0.37775918841362,
+      "output_rms": 10.132060050964355,
+      "update_to_state_ratio": 0.037657883018255234,
+      "update_to_discrepancy_ratio": 0.06043405458331108,
+      "update_discrepancy_cosine": 0.1759854257106781
+    },
+    {
+      "layer": 6,
+      "gate": 0.09947021305561066,
+      "current_rms": 10.264555931091309,
+      "remembered_rms": 6.494272232055664,
+      "discrepancy_rms": 6.422301292419434,
+      "update_rms": 0.3289605975151062,
+      "output_rms": 10.219101905822754,
+      "update_to_state_ratio": 0.03204820677638054,
+      "update_to_discrepancy_ratio": 0.051221609115600586,
+      "update_discrepancy_cosine": -0.02392793446779251
+    },
+    {
+      "layer": 7,
+      "gate": 0.09947021305561066,
+      "current_rms": 10.735352516174316,
+      "remembered_rms": 6.93269681930542,
+      "discrepancy_rms": 6.667857646942139,
+      "update_rms": 0.37012946605682373,
+      "output_rms": 10.78270149230957,
+      "update_to_state_ratio": 0.03447762504220009,
+      "update_to_discrepancy_ratio": 0.055509503930807114,
+      "update_discrepancy_cosine": 0.13315340876579285
+    },
+    {
+      "layer": 8,
+      "gate": 0.09947021305561066,
+      "current_rms": 11.298794746398926,
+      "remembered_rms": 7.2435197830200195,
+      "discrepancy_rms": 7.04592227935791,
+      "update_rms": 0.37003326416015625,
+      "output_rms": 11.314794540405273,
+      "update_to_state_ratio": 0.03274979814887047,
+      "update_to_discrepancy_ratio": 0.0525173656642437,
+      "update_discrepancy_cosine": 0.14898720383644104
+    },
+    {
+      "layer": 9,
+      "gate": 0.09947021305561066,
+      "current_rms": 11.853590965270996,
+      "remembered_rms": 7.6665520668029785,
+      "discrepancy_rms": 7.409709453582764,
+      "update_rms": 0.3395480513572693,
+      "output_rms": 11.837039947509766,
+      "update_to_state_ratio": 0.028645163401961327,
+      "update_to_discrepancy_ratio": 0.045824747532606125,
+      "update_discrepancy_cosine": 0.09052056074142456
+    },
+    {
+      "layer": 10,
+      "gate": 0.09947021305561066,
+      "current_rms": 12.408007621765137,
+      "remembered_rms": 8.37570571899414,
+      "discrepancy_rms": 7.935380935668945,
+      "update_rms": 0.6149236559867859,
+      "output_rms": 12.39946460723877,
+      "update_to_state_ratio": 0.0495586134493351,
+      "update_to_discrepancy_ratio": 0.0774913877248764,
+      "update_discrepancy_cosine": 0.1799066662788391
+    },
+    {
+      "layer": 11,
+      "gate": 0.09947021305561066,
+      "current_rms": 13.359030723571777,
+      "remembered_rms": 9.61847972869873,
+      "discrepancy_rms": 9.088274955749512,
+      "update_rms": 0.856506884098053,
+      "output_rms": 13.34705924987793,
+      "update_to_state_ratio": 0.06411445140838623,
+      "update_to_discrepancy_ratio": 0.09424306452274323,
+      "update_discrepancy_cosine": 0.30481868982315063
+    },
+    {
+      "layer": 12,
+      "gate": 0.09947021305561066,
+      "current_rms": 15.093879699707031,
+      "remembered_rms": 9.797704696655273,
+      "discrepancy_rms": 11.24215316772461,
+      "update_rms": 0.9518419504165649,
+      "output_rms": 15.079907417297363,
+      "update_to_state_ratio": 0.06306145340204239,
+      "update_to_discrepancy_ratio": 0.08466722816228867,
+      "update_discrepancy_cosine": 0.22842437028884888
+    }
+  ]
+}

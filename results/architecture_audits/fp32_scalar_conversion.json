@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "parameter_count": 48944657,
+  "logit_max_difference": 0.0,
+  "balance_difference": 0.0,
+  "before_reflect_dtypes": [
+    "torch.bfloat16",
+    "torch.bfloat16",
+    "torch.bfloat16",
+    "torch.bfloat16",
+    "torch.bfloat16",
+    "torch.bfloat16",
+    "torch.bfloat16",
+    "torch.bfloat16",
+    "torch.bfloat16",
+    "torch.bfloat16",
+    "torch.bfloat16",
+    "torch.bfloat16",
+    "torch.bfloat16"
+  ],
+  "after_reflect_dtypes": [
+    "torch.float32",
+    "torch.float32",
+    "torch.float32",
+    "torch.float32",
+    "torch.float32",
+    "torch.float32",
+    "torch.float32",
+    "torch.float32",
+    "torch.float32",
+    "torch.float32",
+    "torch.float32",
+    "torch.float32",
+    "torch.float32"
+  ],
+  "before_morph_dtypes": [
+    "torch.bfloat16",
+    "torch.bfloat16",
+    "torch.bfloat16",
+    "torch.bfloat16"
+  ],
+  "after_morph_dtypes": [
+    "torch.float32",
+    "torch.float32",
+    "torch.float32",
+    "torch.float32"
+  ],
+  "reflect_gate_values": [
+    0.09947021305561066,
+    0.09947021305561066,
+    0.09947021305561066,
+    0.09947021305561066,
+    0.09947021305561066,
+    0.09947021305561066,
+    0.09947021305561066,
+    0.09947021305561066,
+    0.09947021305561066,
+    0.09947021305561066,
+    0.09947021305561066,
+    0.09947021305561066,
+    0.09947021305561066
+  ],
+  "morph_scale_values": [
+    0.01798621006309986,
+    0.01798621006309986,
+    0.01798621006309986,
+    0.01798621006309986
+  ],
+  "reflect_gradient_absolute": [
+    0.0017713983543217182,
+    0.0043738228268921375,
+    0.00020912342006340623,
+    0.0019354164833202958,
+    0.002602424705401063,
+    0.0018916784320026636,
+    0.004089524503797293,
+    0.0016183144180104136,
+    0.005161111243069172,
+    0.001109857577830553,
+    0.0037833568640053272,
+    0.001738594495691359,
+    0.0064295195043087006
+  ],
+  "morph_gradient_absolute": [
+    0.007554946467280388,
+    0.00683049950748682,
+    0.00417419383302331,
+    0.03366953134536743
+  ],
+  "zero_reflect_gradients": 0,
+  "zero_morph_gradients": 0
+}

@@ -1,0 +1,36 @@
+{
+  "checkpoint": "/content/drive/MyDrive/ANKA/run_02_english_5b/rmw3_full_5b_v3/final.pt",
+  "seed": 3407,
+  "temperature": 0.8,
+  "top_p": 0.92,
+  "samples": [
+    {
+      "prompt": "The future of artificial intelligence",
+      "completion": " is full of exciting developments. In a study entitled “What to Do in the Field of AI” (vol. 4, no. 5), the authors were able to summarize their findings. In their paper, they stated that the following are important steps to be taken in the field of AI:\nIn a recent paper, Santos et al. (2008) conducted a series of experiments on an experimental model of a man and asked the subjects to know the average speed of a man. They found that there was no significant difference in speed between the man and the vehicle, and the result was consistent with the results of other experiments",
+      "tokens": 128,
+      "unique_token_ratio": 0.640625,
+      "repeated_4gram_ratio": 0.0
+    },
+    {
+      "prompt": "Science is important because",
+      "completion": " it is one of the most important subjects of research, and it is also one of the most interesting of any discipline.\nMost often, scientists in science have to learn what they are doing and what is really going on in the field. It is easy to overlook the importance of the word \"science\" to you, but it is easy to overlook the importance of the word \"science\" to you in every field of scientific inquiry.\nIf you are not interested in working with the science of science, you may find the following tips useful.\n- Do not forget to ask questions.\n- Ask questions.\n- Ask",
+      "tokens": 128,
+      "unique_token_ratio": 0.4921875,
+      "repeated_4gram_ratio": 0.12
+    },
+    {
+      "prompt": "If a box is placed on a table",
+      "completion": "top. The table is placed on the floor. The table will be slightly too small. A large rectangle will be used as the bottom of the box. The box will be made of a piece of wood. The frame will be topped with the top of the box.\n * 6) A small sheet of wood or a plastic stick is placed on the floor. The wood is made of wood or a plastic. The paper sheet will be filled with the sheet of wood or a paper block. The paper block is then placed on the floor. The paper block will be a large, big box. A large box is made of plastic",
+      "tokens": 128,
+      "unique_token_ratio": 0.3515625,
+      "repeated_4gram_ratio": 0.104
+    },
+    {
+      "prompt": "A young researcher discovered that",
+      "completion": " its brain was only partly amazed when a radio-frequency capacitor was placed on it.\nThe basic story is that the researchers ran on to a computer, reading a very small part of the brain's electrical activity, then reconnecting the capacitor with a base-load.\nThe researchers then set up a control system for the radio to determine the frequency of a voltage source.\nThe researchers then tested the effects of the wire's voltage and found that the brain was very comfortable with the same frequency that it used to be.\nThe researchers then compared the results of the experiment with the experiment done by others in the lab.",
+      "tokens": 128,
+      "unique_token_ratio": 0.5546875,
+      "repeated_4gram_ratio": 0.032
+    }
+  ]
+}

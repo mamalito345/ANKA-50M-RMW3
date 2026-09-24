@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anka-rmw3"
+version = "1.0.0"
+description = "ANKA-50M RMW3 causal language model"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+dependencies = [
+  "torch>=2.3",
+  "safetensors>=0.4.3",
+  "tokenizers>=0.20",
+]
+
+[tool.setuptools.packages.find]
+include = ["anka*"]

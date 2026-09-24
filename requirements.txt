@@ -1,0 +1,6 @@
+torch>=2.3
+safetensors>=0.4.3
+tokenizers>=0.20
+datasets>=3.0
+lm-eval==0.4.12
+tqdm>=4.66
